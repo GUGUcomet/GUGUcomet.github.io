@@ -83,7 +83,7 @@ body{
 
 #weather{
   font-size:1.3rem;
-  padding-bottom:10px;
+  padding: 10px 0;
 }
 
 img{
