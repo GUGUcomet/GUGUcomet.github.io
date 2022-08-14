@@ -1,0 +1,128 @@
+/*초기화 css*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'MabinogiClassicR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'MabinogiClassicR';
+}
+
+.hidden{display: none;}
+
+input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 2rem;
+}
+input::placeholder{
+  color:#cecece;
+}
+body{
+  min-width:800px;
+  height:100vh;
+  overflow: hidden;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+#weather{
+  font-size:1.3rem;
+  padding-bottom:10px;
+}
+
+img{
+  width:1920px;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  object-fit: cover;
+}
+ul#todo-list {
+  padding-top:20px;
+}
+ul#todo-list li{
+  padding:15px 0;
+  font-size: 1.5rem;
+
+}
+
+.center{
+ color:#fff;
+ text-align: center;
+ background: #00000066;
+ padding: 30px;
+ border-radius: 20px;
+}
+h1{
+  font-size: 5rem;
+  font-weight: 600;
+  padding:20px 0;
+}
+h2{
+  font-size: 3rem;
+  font-weight: 600;
+  padding:15px 0;
+}
+
+#quote{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
